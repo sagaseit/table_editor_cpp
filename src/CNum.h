@@ -1,7 +1,3 @@
-/**
-* @author Sagadat Seitzhan <seitzsag@cvut.cz>
-* @date 12.05.2023
-*/
 #ifndef CNum_h
 #define CNum_h
 #include "CCell.h"
