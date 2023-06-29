@@ -1,0 +1,6 @@
+Hi there! Welcome to my spreadsheet editor!
+    You can already start using this spreadsheet editor,
+    but if you don't know which commands are available 
+    you can type /help command that will show you
+    list of available commands
+    Type command that you want:

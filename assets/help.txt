@@ -1,0 +1,21 @@
+So you need help?
+
+If you want assign value/cell to the cell you can type:
+1,1 = value
+Where 1,1 are coordinates of cell
+If you want assign string to the cell you need to type string in quotes:
+3,4 = "hello"
+
+There are some commands available for the user(you need to write them with '/' at the beginning):
+/PRINT 1,1  // Prints particular cell's value
+/FORMULA 1,1 // Prints particular cell's formula
+/PRINT [1,1:4,10] // Prints cells value in particular range
+/FORMULA [1,1:4,10] // Prints cells formula in particular range
+/sin(1,1) // Calculates the sine of a given angle in radians
+/cos(1,1) // Calculates the cosine of a given angle in radians
+/abs(1,1) // Returns the absolute value of a number
+/tan(1,1) // Returns the tangense of a given angle in radians
+/exp(1,1) // Returns the exponent of a given number
+/log(1,1) // Returns the log of a given number
+/IMPORT NAME// Imports table
+/EXPORT NAME// Exports table
