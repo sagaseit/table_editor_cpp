@@ -1,8 +1,3 @@
-/**
-* @author Sagadat Seitzhan <seitzsag@cvut.cz>
-* @date 12.05.2023
-*/
-
 #ifndef CImport_h
 #define CImport_h
 
