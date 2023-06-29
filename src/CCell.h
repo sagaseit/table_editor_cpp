@@ -1,7 +1,3 @@
-/**
-* @author Sagadat Seitzhan <seitzsag@cvut.cz>
-* @date 12.05.2023
-*/
 #ifndef CCell_h
 #define CCell_h
 #include <string>
