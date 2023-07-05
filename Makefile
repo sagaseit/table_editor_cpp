@@ -17,12 +17,12 @@ all: compile doc
 
 .PHONY: run
 run: compile
-	./seitzsag
+	./username
 
 .PHONY: compile
-compile: seitzsag $(TEXT_FILES_DEST)
+compile: username $(TEXT_FILES_DEST)
 
-seitzsag: build/main
+username: build/main
 	cp $< $@
 
 build/main: $(OBJECTS)
@@ -56,7 +56,7 @@ build:
 	
 .PHONY: clean
 clean:
-	rm -rf seitzsag debug/ build/ doc/ debug/ 2>/dev/null
+	rm -rf username debug/ build/ doc/ debug/ 2>/dev/null
 
 .PHONY: test_all
 test_all: $(TESTS:tests/%.test.cpp=debug/%.test)
